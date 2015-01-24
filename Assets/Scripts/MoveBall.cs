@@ -13,8 +13,18 @@ public class MoveBall : MonoBehaviour {
 
 		Vector3 movement = new Vector3 (moveHor, 0.0f, moveVer);
 
-		rigidbody.AddForce (movement * speed * Time.deltaTime);
+		//if(moveHor == 0 && moveVer == 0)
+		//{
+
+			//audio.Stop ();
+
+		//}
+
+		//audio.Play ();
+		rigidbody.velocity = (movement * speed);
+
 
 	}
+
 
 }
