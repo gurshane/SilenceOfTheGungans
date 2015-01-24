@@ -19,7 +19,7 @@ public class GameLoop : MonoBehaviour {
 
 		isPlayerAlive = true;
 		health = 100;
-		ammo = 100;
+		ammo = 200;
 		parts = 0;
 		player = GameObject.FindWithTag ("Player");
 
@@ -54,16 +54,25 @@ public class GameLoop : MonoBehaviour {
 
 	}
 
-	public void updateHealth(int moreHealth){
+	public bool updateHealth(int moreHealth){
 
-		if((health + moreHealth) > 100)
+		if(health == 100)
 		{
 
-			return;
+			return false;
 		}
 
-		health = health + moreHealth;
+		health = (health + moreHealth);
+
+		if(health > 100){
+
+			health = 100;
+		}
+
 		healthTxt.text = "Health: " + health;
+		storyTxt.text = "MISSION LOG: \nHEALTH GAINED";
+			
+		return true;
 
 	}
 

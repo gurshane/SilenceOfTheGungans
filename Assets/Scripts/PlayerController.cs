@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour {
 			GameObject tempEx = Instantiate (Explosion, shotSpawn.position, shotSpawn.rotation) as GameObject;
 			nextFire = fireRate + Time.time;
 			GameObject shotFired = Instantiate (shot, shotSpawn.position, shotSpawn.rotation) as GameObject;
-			Destroy (tempEx);
+			Destroy (tempEx,2.0f);
 
 			
 		}

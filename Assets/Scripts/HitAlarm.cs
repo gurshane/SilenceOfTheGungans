@@ -16,7 +16,7 @@ public class HitAlarm : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 
-		if(other.tag == "Player")
+		if(other.tag == "Player" && gameObject.name == "HitAlarm")
 		{
 			//Debug.Log ("HIT");
 			gLoop.updateHealth();

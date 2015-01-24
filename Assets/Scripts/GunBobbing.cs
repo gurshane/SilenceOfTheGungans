@@ -11,12 +11,7 @@ public class GunBobbing : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		/*while(Input.GetKeyDown (KeyCode.W || KeyCode.A || KeyCode.S || KeyCode.D))
-		{
-
-			rigidbody.transform = new Vector3(transform.position.x, 
-
-		}*/
+		//while(gameObject.
 
 	}
 }

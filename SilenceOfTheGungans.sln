@@ -5,6 +5,8 @@ Project("{9C08CF8B-3D37-3B65-A228-95887606BBD8}") = "SilenceOfTheGungans", "Asse
 EndProject
 Project("{9C08CF8B-3D37-3B65-A228-95887606BBD8}") = "SilenceOfTheGungans", "Assembly-CSharp.csproj", "{8FF2EFBA-45AC-F00C-3AC6-E3DBC9BD1BDD}"
 EndProject
+Project("{9C08CF8B-3D37-3B65-A228-95887606BBD8}") = "SilenceOfTheGungans", "Assembly-UnityScript-firstpass.unityproj", "{1257E3A6-70CE-2D28-B3F5-98773290DA7D}"
+EndProject
 Project("{9C08CF8B-3D37-3B65-A228-95887606BBD8}") = "SilenceOfTheGungans", "Assembly-UnityScript.unityproj", "{018DEA87-0452-290D-D8F4-194AFB8BFC2D}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{8FF2EFBA-45AC-F00C-3AC6-E3DBC9BD1BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FF2EFBA-45AC-F00C-3AC6-E3DBC9BD1BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FF2EFBA-45AC-F00C-3AC6-E3DBC9BD1BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1257E3A6-70CE-2D28-B3F5-98773290DA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1257E3A6-70CE-2D28-B3F5-98773290DA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1257E3A6-70CE-2D28-B3F5-98773290DA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1257E3A6-70CE-2D28-B3F5-98773290DA7D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{018DEA87-0452-290D-D8F4-194AFB8BFC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{018DEA87-0452-290D-D8F4-194AFB8BFC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018DEA87-0452-290D-D8F4-194AFB8BFC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																				GlobalSection(MonoDevelopProperties) = preSolution
+																																																										GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -46,8 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Blurb.cs" />
      <Compile Include="Assets\Campfire Pack\Script\SwitchView.cs" />
      <Compile Include="Assets\CollectAmmo.cs" />
+     <Compile Include="Assets\CollectPart.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByContact.cs" />
@@ -58,6 +60,7 @@
      <Compile Include="Assets\Done\Done_Scripts\Done_PlayerController.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_RandomRotator.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_WeaponController.cs" />
+     <Compile Include="Assets\HealthPickup.cs" />
      <Compile Include="Assets\MoveText.cs" />
      <Compile Include="Assets\Scripts\BulletHit.cs" />
      <Compile Include="Assets\Scripts\CamerController.cs" />
@@ -73,9 +76,14 @@
      <Compile Include="Assets\Scripts\MoveBall.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\loadFirstLevel.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Models\GameCube - Crash Bandicoot The Wrath of Cortex - Crash Bandicoot\Crash Bandicoot\info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Stockcar\ReadMe.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/gsidhu/Unity/MIGJ/SilenceOfTheGungans/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
