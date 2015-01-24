@@ -5,6 +5,8 @@ public class CamerController : MonoBehaviour {
 
 	public GameObject player;
 	private Vector3 offset;
+	public float turnSpeed;
+
 
 	void Start()
 	{
@@ -16,11 +18,6 @@ public class CamerController : MonoBehaviour {
 	void LateUpdate()
 	{
 
-		if(Input.GetAxis ("Mouse X") > 0)
-		{
-
-
-		}
 
 	}
 
