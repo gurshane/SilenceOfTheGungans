@@ -8,6 +8,7 @@ public class JarJarMover : MonoBehaviour {
 	public Transform player;
 
 	public float speed;
+	public int count;
 
 	// Use this for initialization
 	void Start () {
@@ -25,33 +26,16 @@ public class JarJarMover : MonoBehaviour {
 			
 		}
 
-		StartCoroutine(Stalk ());
+		count = 0;
 
 	}
-	
-	IEnumerator Stalk()
-	{
 
 
-		while(playerStatus)
-		{
+	void FixedUpdate(){
 
-			//transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-
-			Debug.Log ("started");
-
-			//playerStatus = gameLoop.getPlayerStatus ();
-
-			playerStatus = false;
-
-			if(!playerStatus)
-			{
-				yield return new WaitForSeconds(0.01f);
-				return false;
-			}
-
-		}
+		rigidbody.transform.position = Vector3.MoveTowards (rigidbody.transform.position, player.position, speed * Time.deltaTime);
 
 	}
+
 
 }

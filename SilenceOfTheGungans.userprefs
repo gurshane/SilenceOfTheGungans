@@ -4,9 +4,10 @@
     <Files>
       <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets\GameLoop.cs" Line="1" Column="1" />
-      <File FileName="Assets\JarJarMover.cs" Line="42" Column="4" />
+      <File FileName="Assets\JarJarMover.cs" Line="40" Column="2" />
       <File FileName="..\..\SpaceShooter\Assets\Scripts\DestroyByContact.cs" Line="1" Column="1" />
-      <File FileName="..\..\SpaceShooter\Assets\Scripts\GameController.cs" Line="34" Column="19" />
+      <File FileName="..\..\SpaceShooter\Assets\Scripts\GameController.cs" Line="1" Column="1" />
+      <File FileName="..\..\SpaceShooter\Assets\Scripts\Mover.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
