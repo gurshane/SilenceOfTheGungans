@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveBall.cs">
     <Files>
-      <File FileName="Assets\Scripts\MoveBall.cs" Line="16" Column="40" />
+      <File FileName="Assets\Scripts\MoveBall.cs" Line="16" Column="56" />
+      <File FileName="..\..\SpaceShooter\Assets\Scripts\PlayerController.cs" Line="35" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

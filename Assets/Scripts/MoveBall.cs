@@ -13,7 +13,7 @@ public class MoveBall : MonoBehaviour {
 
 		Vector3 movement = new Vector3 (moveHor, 0.0f, moveVer);
 
-		rigidbody.AddForce (movement * speed );
+		rigidbody.AddForce (movement * speed * Time.deltaTime);
 
 	}
 

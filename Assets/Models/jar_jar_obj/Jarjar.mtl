@@ -1,0 +1,447 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 26.07.2008 16:39:47
+
+newmtl wire_166202240
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6510 0.7922 0.9412
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_224198087
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8784 0.7765 0.3412
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_008110134
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0314 0.4314 0.5255
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_224143087
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8784 0.5608 0.3412
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_141007058
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5529 0.0275 0.2275
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_153228214
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6000 0.8941 0.8392
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_086086086
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3373 0.3373 0.3373
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_140088225
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5490 0.3451 0.8824
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_166229229
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6510 0.8980 0.8980
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_154215229
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6039 0.8431 0.8980
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_184228153
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7216 0.8941 0.6000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_196088225
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7686 0.3451 0.8824
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__3
+	Ns 40.0000
+	Ni 1.5000
+	d 0.0500
+	Tr 0.0500
+	Tf 0.0500 0.0500 0.0500 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6235 0.6235 0.6235
+	Ks 1.6200 1.6200 1.6200
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__2
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2000 0.5529 0.1765
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Jareye.JPG
+	map_Kd maps\Jareye.JPG
+	map_Ke maps\JareyeGlo.JPG
+
+newmtl wire_028028177
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1098 0.1098 0.6941
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_134006006
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5255 0.0235 0.0235
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__10
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1922 0.1922 0.1922
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Map__14_Gradient.tga
+	map_Kd maps\Map__14_Gradient.tga
+	map_bump maps\Map__15_Gradient.tga
+
+newmtl wire_108008136
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4235 0.0314 0.5333
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_006134006
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0235 0.5255 0.0235
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_113134006
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4431 0.5255 0.0235
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__13
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2431 0.1882 0.1451
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarcloth2.jpg
+	map_Kd maps\JarJarcloth2.jpg
+	map_bump maps\JarJarcloth2bump.jpg
+
+newmtl Material__8
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2431 0.1882 0.1451
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarcloth.jpg
+	map_Kd maps\JarJarcloth.jpg
+
+newmtl Material__335
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarfoot.jpg
+	map_Kd maps\JarJarfoot.jpg
+
+newmtl Material__346
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1922 0.1922 0.1922
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Map__14_Gradient.tga
+	map_Kd maps\Map__14_Gradient.tga
+	map_bump maps\Map__15_Gradient.tga
+
+newmtl Material__1
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJartextah.jpg
+	map_Kd maps\JarJartextah.jpg
+	map_bump maps\JarJarbump.jpg
+
+newmtl Material__6
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2980 0.2000 0.0471
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarbody.jpg
+	map_Kd maps\JarJarbody.jpg
+	map_bump maps\JarJarbodybump.jpg
+
+newmtl Material__247
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2980 0.2000 0.0471
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarbody2.jpg
+	map_Kd maps\JarJarbody2.jpg
+	map_bump maps\JarJarbodybump.jpg
+
+newmtl Material__5
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5255 0.1843 0.0000
+	Ks 0.1080 0.1080 0.1080
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJareye.jpg
+	map_Kd maps\JarJareye.jpg
+	map_bump maps\JarJareyebum.jpg
+
+newmtl Material__71
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJararm.jpg
+	map_Kd maps\JarJararm.jpg
+	map_bump maps\JarJararmbump.jpg
+
+newmtl Material__11
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6549 0.3569 0.1922
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarhand.jpg
+	map_Kd maps\JarJarhand.jpg
+	map_bump maps\JarJarhandbump.jpg
+
+newmtl Material__259
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6549 0.3569 0.1922
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarhand2.jpg
+	map_Kd maps\JarJarhand2.jpg
+	map_bump maps\JarJarhandbump2.jpg
+
+newmtl Material__4
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5255 0.1843 0.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarear.jpg
+	map_Kd maps\JarJarear.jpg
+	map_bump maps\JarJarearbump.jpg
+
+newmtl Material__26
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5255 0.4471 0.3608
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__37
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5255 0.1843 0.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\JarJarearb.jpg
+	map_Kd maps\JarJarearb.jpg
+	map_bump maps\JarJarearbump.jpg
+
+newmtl Material__14
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3216 0.2039 0.0784
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_bump maps\Map__37_Mask.tga
+
+newmtl Material__9
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3686 0.2431 0.1333
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Map__31_Cellular.tga
+	map_Kd maps\Map__31_Cellular.tga
+	map_bump maps\Map__32_Cellular.tga
