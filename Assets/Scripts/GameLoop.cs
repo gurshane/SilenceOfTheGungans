@@ -18,7 +18,6 @@ public class GameLoop : MonoBehaviour {
 
 		isPlayerAlive = false;
 
-
 	}
 
 	public bool getPlayerStatus()
