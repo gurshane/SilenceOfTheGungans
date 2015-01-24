@@ -41,12 +41,12 @@ public class GameLoop : MonoBehaviour {
 		parts++;
 
 		partsTxt.text = "Parts: " + parts + "/20";
-		storyTxt.text = "PART COLLECTED";
+		storyTxt.text = "MISSION LOG \nPART COLLECTED";
 		
 		if(parts == 20)
 		{
 			//Display win text
-			storyTxt.text = "YOU ESCAPED";
+			storyTxt.text = "MISSION LOG: \nYOU ESCAPED";
 			leave ();
 		}
 
@@ -84,6 +84,8 @@ public class GameLoop : MonoBehaviour {
 
 		ammo = ammo + moreAmmo;
 		ammoTxt.text = "Ammo: " + ammo;
+		storyTxt.text = "MISSION LOG: \nAMMO COLLECTED";
+		StartCoroutine (WipeScreen ());
 		//updateh ammo text and tell user he/she got ammo
 
 	}
@@ -91,11 +93,9 @@ public class GameLoop : MonoBehaviour {
 	public IEnumerator WipeScreen()
 	{
 
-		yield return new WaitForSeconds (5.0f);
+		yield return new WaitForSeconds (7.0f);
 
 		storyTxt.text = "";
-
-		yield return new WaitForSeconds(5.0f);
 
 	}
 
@@ -106,7 +106,7 @@ public class GameLoop : MonoBehaviour {
 		isPlayerAlive = false;
 		GameObject temp = GameObject.FindWithTag ("Player");
 		temp.SetActive (false);
-		storyTxt.text = "YOU DIED";
+		storyTxt.text = "MISSION LOG: \nYOU DIED";
 		//pop up YOU ARE DEAD text in GUI
 		StartCoroutine(WipeScreen ());
 		Application.LoadLevel ("LoseScreen");
