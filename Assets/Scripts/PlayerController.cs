@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
 	public AudioClip aud2;
 	public float turnSpeed;
 	private GameLoop gLoop;
+	public GameObject spawnLocation;
 
 	private float nextFire;
 	
@@ -58,10 +59,11 @@ public class PlayerController : MonoBehaviour {
 			}
 			gLoop.updateAmmo ();
 			audio.PlayOneShot (aud2);
-			GameObject tempEx = Instantiate (Explosion, shotSpawn.position, shotSpawn.rotation) as GameObject;
+			//GameObject tempEx = Instantiate (Explosion, shotSpawn.position, shotSpawn.rotation) as GameObject;
 			nextFire = fireRate + Time.time;
 			GameObject shotFired = Instantiate (shot, shotSpawn.position, shotSpawn.rotation) as GameObject;
-			Destroy (tempEx,2.0f);
+			Destroy (shotFired, 5.0f);
+			//Destroy (tempEx,2.0f);
 
 			
 		}

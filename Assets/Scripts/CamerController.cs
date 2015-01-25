@@ -3,9 +3,11 @@ using System.Collections;
 
 public class CamerController : MonoBehaviour {
 
-	public GameObject player;
-	private Vector3 offset;
-	public float turnSpeed;
+	//public GameObject player;
+	//private Vector3 offset;
+	//public float turnSpeed;
+
+
 
 
 	void Start()
@@ -18,6 +20,12 @@ public class CamerController : MonoBehaviour {
 	void LateUpdate()
 	{
 
+
+	}
+
+	public void playsMusic()
+	{
+		audio.Play ();
 
 	}
 

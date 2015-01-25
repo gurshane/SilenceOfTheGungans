@@ -12,7 +12,13 @@ public class GameLoop : MonoBehaviour {
 	public Text ammoTxt;
 	public Text storyTxt;
 	public Text partsTxt;
+	public Text killsTxt;
+	public int kills;
 	private GameObject player;
+	public GameObject jjPrime;
+	public GameObject spawn1;
+	public GameObject spawn2;
+	private CamerController cContr;
 
 	// Use this for initialization
 	void Start () {
@@ -21,8 +27,12 @@ public class GameLoop : MonoBehaviour {
 		health = 100;
 		ammo = 200;
 		parts = 0;
+		kills = 0;
 		player = GameObject.FindWithTag ("Player");
-
+		GameObject temp = GameObject.FindWithTag ("MainCamera");
+		cContr = temp.GetComponent<CamerController> ();
+		audio.Play ();
+		//cContr
 		//tellAStory();
 	
 	}
@@ -35,6 +45,43 @@ public class GameLoop : MonoBehaviour {
 			killPlayer ();
 		}
 	}
+
+	public void updateKills()
+	{
+
+		kills++;
+		killsTxt.text = "KILLS: " + kills;
+
+		if(kills%50 == 0)
+		{
+			cContr.playsMusic ();
+			StartCoroutine(Spawns(spawn1));
+			StartCoroutine (Spawns (spawn2));
+
+		}
+
+
+	}
+
+	IEnumerator Spawns(GameObject spawnLocation){
+
+		yield return new WaitForSeconds (1.0f);
+
+		for(int i = 0; i < 25; i++)
+		{
+			
+			Vector3 spawnPosition = new Vector3 (spawnLocation.transform.position.x, spawnLocation.transform.position.y, spawnLocation.transform.position.z);
+			Quaternion spawnRotation = Quaternion.identity;
+			
+			Instantiate ( jjPrime, spawnPosition, spawnRotation);
+			
+			
+		}
+
+
+
+	}
+
 
 	public void updateParts(){
 
